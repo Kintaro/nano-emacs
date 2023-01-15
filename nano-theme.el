@@ -526,7 +526,7 @@ function is a convenience wrapper used by `describe-package-1'."
 (defun nano-theme--mu4e ()
   "Derive mu4e faces from nano faces."
   (with-eval-after-load 'mu4e
-    (set-face 'mu4e-attach-number-face                'nano-face-strong)
+   ; (set-face 'mu4e-attach-number-face                'nano-face-strong)
     (set-face 'mu4e-cited-1-face                       'nano-face-faded)
     (set-face 'mu4e-cited-2-face                       'nano-face-faded)
     (set-face 'mu4e-cited-3-face                       'nano-face-faded)
